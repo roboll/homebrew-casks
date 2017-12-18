@@ -8,7 +8,7 @@ cask 'appgate-sdp-client' do
 
   depends_on macos: '>= :yosemite'
 
-  pkg 'AppGate Installer.pkg'
+  pkg "AppGate SDP Installer.pkg"
 
   uninstall launchctl: [
                          'com.cryptzone.appgate.tun',
